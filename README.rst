@@ -1,5 +1,5 @@
 =====================
-django-admin-honeypot
+django-admin-honeypot2
 =====================
 
 .. image:: https://travis-ci.org/dmpayton/django-admin-honeypot.svg?branch=develop
@@ -15,9 +15,9 @@ django-admin-honeypot
    :alt: Code Climate
 
 
-**django-admin-honeypot** is a fake Django admin login screen to log and notify
+**django-admin-honeypot2** is a port of the **django-admin-honeypot**, a fake Django admin login screen to log and notify
 admins of attempted unauthorized access. This app was inspired by discussion
-in and around Paul McMillan's security talk at DjangoCon 2011.
+in and around Paul McMillan's security talk at DjangoCon 2011. The only difference is that this fork have been updated to **Django 2 ** Compatible.
 
 * **Author**: `Derek Payton <http://dmpayton.com/>`_
 * **Version**: 1.0.0
@@ -33,7 +33,7 @@ tl;dr
 
 * Install django-admin-honeypot from PyPI::
 
-        pip install django-admin-honeypot
+        pip install django-admin-honeypot2
 
 * Add ``admin_honeypot`` to ``INSTALLED_APPS``
 * Update your urls.py:
